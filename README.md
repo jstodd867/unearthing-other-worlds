@@ -15,7 +15,7 @@ The dataset contains 4401 confirmed exoplanets from a variety of detection sourc
 <li>Discovery Method</li>
 <li>Discovery Facility</li>
 <li>Planet Radius</li>
-<li>Distance to Planet's Solar System<li>
+<li>Distance to Planet's Solar System</li>
 <li>Orbital Period</li>
 <li>Equilibrium Temperature</li>
 
