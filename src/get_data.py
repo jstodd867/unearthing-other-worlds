@@ -44,8 +44,8 @@ def save_data(data, save_filename, file_format = '.csv', dir_path = './data/', o
         f.close()
 
 if __name__ == '__main__':
-    query = 'select+pl_name,sy_snum,sy_pnum,glat,glon,pl_orbper,pl_rade,sy_dist+from+ps&format=csv'
+    query = 'select+pl_name,discoverymethod,disc_year,disc_facility,sy_snum,sy_pnum,glat,glon,pl_orbper,pl_rade,sy_dist,pl_eqt,pl_orbeccen+from+pscomppars&format=csv'
     r = get_data(query)  # Retrieve data from exoplanet archive
 
-    save_filename = 'new_planet_data' # Specify filename to save query data
-    save_data(r.content, save_filename) # Save query results in a CSV file
+    save_filename = 'distinct_planets' # Specify filename to save query data
+    save_data(r.content, save_filename,overwrite=True) # Save query results in a CSV file
