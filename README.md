@@ -1,4 +1,4 @@
-# unearthing-other-worlds
+# Unearthing Other Worlds
 
 <img src="https://github.com/jstodd867/unearthing-other-worlds/blob/main/images/Screen%20Shot%202021-06-10%20at%202.53.05%20PM.png" width ="1000" height=500>
 
