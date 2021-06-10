@@ -5,11 +5,22 @@
 
 
 ## Background
-Test
+
 ## Exoplanet Data
-1
+The data are available on the NASA Exoplanet Archive, both through an <a href="https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html">API</a> and an <a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PSCompPars">interactive format</a>.
+
+The dataset contains 4401 confirmed exoplanets from a variety of detection sources.  The discoveries span 1989 - 2021 and contain numerous parameters about the planets, including but not limited to:
+
+<li>Planet Name</li>
+<li>Discovery Method</li>
+<li>Discovery Facility</li>
+<li>Planet Radius</li>
+<li>Distance to Planet's Solar System<li>
+<li>Orbital Period</li>
+<li>Equilibrium Temperature</li>
+
 ## Exploratory Data Analysis
-2
+
 ## Hypothesis Testing
-3
+
 ## Conclusions
