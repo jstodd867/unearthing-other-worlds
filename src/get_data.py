@@ -48,4 +48,4 @@ if __name__ == '__main__':
     r = get_data(query)  # Retrieve data from exoplanet archive
 
     save_filename = 'distinct_planets' # Specify filename to save query data
-    save_data(r.content, save_filename,overwrite=True) # Save query results in a CSV file
+    save_data(r.content, save_filename,overwrite=False) # Save query results in a CSV file
