@@ -5,7 +5,10 @@
 
 
 ## Background
-Exoplanets are planets outside of our solar system.  The first exoplanet discovery was in 1989 and since the community has discovered many more within our galaxy as more robust detection methods are established and applied.
+Exoplanets are planets outside of our solar system.  The first exoplanet discovery was in 1989 and since the community has discovered many more within our galaxy as more robust detection methods are established and applied.  The objective of this project was to identify trends in exoplanet detection over time, both with respect to the detection methods used, as well as planetary characteristics.  Some questions that I wanted to investigate were:
+
+<li> What detection methods are most popular and how have they changed over time?</li>
+<li> Are we better able to detect certain types of planets now than before?</li>
 
 ## Exoplanet Data
 The data are available on the NASA Exoplanet Archive, both through an <a href="https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html">API</a> and an <a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=PSCompPars">interactive format</a>.  The data used for this exploration is included in the data directory, however, the get_data script in the src directory can be used to retrieve and save the data explored by this code.
@@ -26,6 +29,8 @@ The dataset contains 4401 confirmed exoplanets from a variety of detection sourc
 The dataset retrieved from the exoplanet archive for this exploration was largely clean.  For some parameters, like planet radius and equilibrium temperature, there were records with no entry, so the only cleaning that needed to occur was to omit these entries when plotting or calculating means.  The features with missing values are noted in the EDA notebook.
 
 ### Visualizations
+
+The code for producing this visualizations are in the EDA notebook, with underlying functions in the plots.py file of the src directory.
 
 #### Detection Methods
 The first element of this dataset that I explored was the breakdown of discovery methods across the confirmed exoplanets.  The bar chart, below, shows that the clear leader in terms of number of detections is the transit method.
@@ -69,7 +74,10 @@ Surprisingly, you can see that most of the planets are the only ones in their so
 
 ## Hypothesis Testing
 
-### Hypothesis Test 1:  Is the mean planet radius detected from 1989 - 2010 greater than that over the period 2011 - 2021?
+### Hypothesis Test:  Is the mean planet radius detected from 1989 - 2010 greater than that over the period 2011 - 2021?
+
+The Hypothesis Testing notebook in the notebooks folder executes this test, and the underlying functions called in the notebook can be found in the hypothesis.py file of the src directory.
+
 <p align="center">
 H<sub>0</sub>:   &mu;<sub>1989-2010</sub> = &mu;<sub>2011-2021</sub><br>
 H<sub>A</sub>:   &mu;<sub>1989-2010</sub> > &mu;<sub>2011-2021</sub><br>
