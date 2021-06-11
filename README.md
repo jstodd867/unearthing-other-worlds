@@ -20,6 +20,17 @@ The dataset contains 4401 confirmed exoplanets from a variety of detection sourc
 <li>Equilibrium Temperature</li>
 
 ## Exploratory Data Analysis
+<img src="https://github.com/jstodd867/unearthing-other-worlds/blob/main/images/detection_bar_chart.png">
+
+<img src="https://github.com/jstodd867/unearthing-other-worlds/blob/main/images/detections_per_year.png">
+
+<img src="https://github.com/jstodd867/unearthing-other-worlds/blob/main/images/detections_per_year_by_method.png">
+
+<img src="https://github.com/jstodd867/unearthing-other-worlds/blob/main/images/galactic_plot.png">
+
+<img src="https://github.com/jstodd867/unearthing-other-worlds/blob/main/images/curious_cluster.png">
+
+<img src="https://github.com/jstodd867/unearthing-other-worlds/blob/main/images/solar_system_features.png">
 
 ## Hypothesis Testing
 
