@@ -84,7 +84,7 @@ H<sub>A</sub>:   &mu;<sub>1989-2010</sub> > &mu;<sub>2011-2021</sub><br>
 &alpha; = 0.05
 </p>
 
-The results of the Welsh's t-test produced a p-value of approximately 0, which indicates that we can reject the null hypothesis in favor of the alternate hypothesis that the mean planet radius over the more recent time period is lower.
+The results of the Welch's t-test produced a p-value of approximately 0, which indicates that we can reject the null hypothesis in favor of the alternate hypothesis that the mean planet radius over the more recent time period is lower.
 ## Conclusions
 <li>The Transit method has emerged as the largest contributor to exoplanet detections.  The Kepler space telescope has observed the most confirmed exoplanets.</li>
 <li>Ability to detect smaller planets has improved over time</li>
