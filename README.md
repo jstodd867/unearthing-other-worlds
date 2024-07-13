@@ -30,10 +30,10 @@ The dataset retrieved from the exoplanet archive for this exploration was largel
 
 ### Visualizations
 
-The code for producing this visualizations are in the EDA notebook, with underlying functions in the plots.py file of the src directory.
+The code for producing these visualizations are in the EDA notebook, with underlying functions in the plots.py file of the src directory.
 
 #### Detection Methods
-The first element of this dataset that I explored was the breakdown of discovery methods across the confirmed exoplanets.  The bar chart, below, shows that the clear leader in terms of number of detections is the transit method.
+The first thing I explored was the breakdown of discovery methods across the confirmed exoplanets.  The bar chart, below, shows that the clear leader in terms of number of detections is the transit method.
 <img src="https://github.com/jstodd867/unearthing-other-worlds/blob/main/images/detection_bar_chart.png">
 
 Diving a little deeper, I was curious to investigate applications of the detection methods over time.  As can be seen in the previous plot, there are a number of detection methods but only a handful of them surpass 50 detections.  The next plot features the four methods that exceed this threshold, illustrating their contributions to exoplanet detections over time.
@@ -54,7 +54,7 @@ From this plot we can see that the detections largely span the different directi
 
 <img src="https://github.com/jstodd867/unearthing-other-worlds/blob/main/images/curious_cluster_zoom.png">
 
-It turns out that the overwhelming majority of the detections in this cluster were identified by the Kepler space telescope.  In fact, in contains all of the detections from the first Kepler mission.  This mission kept the telescoped fixed on the same area of the galaxy for several years.  It was imperative to maintain the same field of view from the telescope for a long duration of time in order to observe any fleeting dips in brightness from host stars as planets transited betweeen the star and the telescope.  Due to this fixed pointing of the telescope, you can even observe a distinct hashtag or grid pattern between the detections.  This pattern matches the gridded focal plane array used for the Kepler space telescope, pictured in the next image.
+It turns out that the overwhelming majority of the detections in this cluster were identified by the Kepler space telescope.  In fact, in contains all of the detections from the first Kepler mission.  This mission kept the telescope fixed on the same part of the galaxy for several years.  It was imperative to maintain the same field of view from the telescope for a long duration of time in order to observe any fleeting dips in brightness from host stars as planets transited betweeen the star and the telescope.  Due to this fixed pointing of the telescope, you can even observe a distinct hashtag or grid pattern between the detections.  This pattern matches the gridded focal plane array used for the Kepler space telescope, pictured in the next image.
 
 <p align="center">
 <img src="https://github.com/jstodd867/unearthing-other-worlds/blob/main/images/286257main_07-3348d1-kepler-4x3_226-170.jpeg">
